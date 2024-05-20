@@ -1,3 +1,5 @@
+<style>
+
 h1 {
   color: #232ED1;
   font-size: 70px;
@@ -21,6 +23,8 @@ img {
 img:hover{
   width: 60%;
   transform: scaleX(-1);
+
+</style>
 }
 
 body {
