@@ -27,20 +27,33 @@ body {
   background-color: grey;
 }
 
-li {
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  
+}
+ li {
   float: left;
   
 }
 
 li a {
   display: block;
-  color: orange;
+  color: white;
   text-align: center;
   padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
   font-family: ariel, sans-serif;
-  background-color: white;
+  background-color: grey;
   color: black;
 }
